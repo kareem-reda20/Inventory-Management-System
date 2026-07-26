@@ -620,6 +620,9 @@ If the product exists:
 
 - Enter New Quantity
 
+- All three fields are mandatory and must be re-entered,
+even if the value does not change.
+
 The Product ID cannot be changed.
 
 ---

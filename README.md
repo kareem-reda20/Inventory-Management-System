@@ -432,5 +432,243 @@ Priority
 
 □ Bonus implemented (optional)
 
+# 15. Function Contracts
+
+The following function signatures are the official interfaces used by the entire team.
+
+Every team member must use these signatures exactly.
+
+```cpp
+void displayMenu();
+
+void addProduct();
+
+void displayProducts();
+
+int searchByID(int id);
+
+int searchByName(string name);
+
+void updateProduct();
+
+void deleteProduct();
+
+void sellProduct();
+
+void restockProduct();
+
+void displayStatistics();
+
+void sortProducts();
+
+void filterProducts();
+```
+
+## Return Rules
+
+### searchByID()
+
+Returns:
+
+- Product index if found.
+- -1 if product does not exist.
+
+---
+
+### searchByName()
+
+Returns:
+
+- Product index if found.
+- -1 if product does not exist.
+
+---
+
+All other functions return `void`.
+
+---
+
+# 16. Search Rules
+
+## Search by ID
+
+- Search using Linear Search.
+- IDs must be unique.
+- Return the product index.
+- If not found, return -1.
+
+---
+
+## Search by Name
+
+- Exact Match only.
+- Case Sensitive.
+- Return the product index.
+- If not found, return -1.
+
+Example
+
+Searching for:
+
+Laptop
+
+Matches:
+
+Laptop
+
+Does NOT match:
+
+laptop
+
+LAPTOP
+
+Laptop Pro
+
+---
+
+# 17. Sort Rules
+
+When the user chooses "Sort Products", display the following submenu:
+
+1. Sort by Name (A → Z)
+
+2. Sort by Price (Low → High)
+
+3. Sort by Quantity (Low → High)
+
+Use Bubble Sort.
+
+The entire Product object must be swapped, not individual fields.
+
+---
+
+# 18. Filter Rules
+
+When the user chooses "Filter Products", display:
+
+1. Available Products
+
+2. Low Stock Products
+
+3. Out of Stock Products
+
+4. Products Above Specific Price
+
+Definitions
+
+Available
+
+Quantity >= 5
+
+---
+
+Low Stock
+
+Quantity > 0 and Quantity < 5
+
+---
+
+Out of Stock
+
+Quantity == 0
+
+---
+
+Above Price
+
+Display all products with price greater than the user input.
+
+---
+
+# 19. Statistics Rules
+
+Display the following information:
+
+- Total Number of Products
+
+- Total Quantity in Inventory
+
+- Total Inventory Value
+
+- Average Product Price
+
+- Most Expensive Product
+
+- Cheapest Product
+
+Inventory Value
+
+= Sum(price × quantity)
+
+Average Price
+
+= Sum(all prices) / productCount
+
+---
+
+# 20. Update Rules
+
+Update Product allows editing all product information.
+
+The user enters the Product ID.
+
+If the product exists:
+
+- Enter New Name
+
+- Enter New Price
+
+- Enter New Quantity
+
+The Product ID cannot be changed.
+
+---
+
+# 21. Delete Rules
+
+Delete Product asks for Product ID.
+
+If found:
+
+Display product information.
+
+Ask for confirmation.
+
+Delete? (Y/N)
+
+If Y
+
+Delete the product.
+
+Shift remaining products one position left.
+
+Decrease productCount.
+
+If N
+
+Cancel the operation.
+
+---
+
+# 22. Bonus Rules (Optional)
+
+Bonus features are implemented only after all required features work correctly.
+
+Recommended order:
+
+1. Save Products to File
+
+2. Load Products from File
+
+3. Total Sales
+
+4. Top 5 Most Expensive Products
+
+5. Top 5 Lowest Stock Products
+
+6. Login System
+
+The file format for Save/Load will be decided only when the team starts implementing the bonus.
+
 □ Ready for demonstration
 

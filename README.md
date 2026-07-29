@@ -2,7 +2,7 @@
 
 A professional **Console-Based Inventory Management System** developed in **C++** as part of the **Mansoura Robotics** training program.
 
-The project provides a complete inventory management solution with a modern console interface, robust input validation, automatic file saving, colorful UI, and several bonus features.
+The project provides a complete inventory management solution with a modern console interface, robust input validation, automatic file saving,  and several bonus features.
 
 ---
 

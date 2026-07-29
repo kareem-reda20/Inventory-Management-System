@@ -122,7 +122,7 @@ void displayMenu()
     cout << "===============================================\n";
 }
 
-// Owner: Member 1
+// Owner: Ahmed Bikhet
 // TODO:
 // Display search submenu.
 // 1- Search by ID
@@ -208,7 +208,7 @@ void filterProducts()
 }
 
 //==================================================
-// Member 2 Functions
+// Yousef Abomosalam's Functions
 //==================================================
 
 // TODO:

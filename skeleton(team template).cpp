@@ -103,7 +103,7 @@ int main()
 // Shared Functions
 //==================================================
 
-// Owner: Leader
+// Owner: Kareem
 // Displays the main menu.
 void displayMenu()
 {
@@ -134,7 +134,7 @@ void searchProduct()
 }
 
 //==================================================
-// Leader Functions
+// Kareems Functions
 //==================================================
 
 // TODO:
@@ -173,7 +173,7 @@ void sortProducts()
 }
 
 //==================================================
-// Member 1 Functions
+// Ahmeds Functions
 //==================================================
 
 // TODO:
@@ -208,7 +208,7 @@ void filterProducts()
 }
 
 //==================================================
-// Yousef Abomosalam's Functions
+// Yousefs Functions
 //==================================================
 
 // TODO:

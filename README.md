@@ -208,7 +208,7 @@ Possible future enhancements include:
 
 # License
 
-This project was developed for educational purposes as part of the Mansoura Robotics Training Team training program.
+This project was developed for educational purposes as part of the Mansoura Robotics training program.
 
 ---
 

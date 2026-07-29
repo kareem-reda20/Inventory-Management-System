@@ -9,12 +9,12 @@ The project provides a complete inventory management solution with a modern cons
 ##  Developers
 
 - Kareem Reda
-- Ahmed Bakhit
-- Yousef Abomsalam
+- Yousef Abomosalam
+- Ahmed Bikhet
 
 **Organization**
 
-Mansoura Robotics Training Team
+Mansoura Robotics 
 
 ---
 

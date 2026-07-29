@@ -205,20 +205,6 @@ Possible future enhancements include:
 
 ---
 
-# Screenshots
-
-You can add screenshots here later.
-
-Example:
-
-```
-screenshots/
-    dashboard.png
-    add_product.png
-    statistics.png
-```
-
----
 
 # License
 

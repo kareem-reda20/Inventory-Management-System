@@ -1,9 +1,7 @@
 /******************************************************************
 Project : Inventory Management System
 Team    : Mansoura Robotics
-Leader  : Kareem
 
-AI INSTRUCTIONS
 ---------------
 Follow PROJECT_SPEC.md exactly.
 Do NOT:

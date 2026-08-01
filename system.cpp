@@ -1,9 +1,6 @@
 //[invntory management system] 
 
-// Visual Studio marks ctime() (used for the dashboard's date/time) as
-// "unsafe" and suggests ctime_s() instead. ctime_s() is Windows-only and
-// not standard C++, so instead we simply tell MSVC not to enforce that
-// warning-as-error for this file. Must be defined before any include.
+
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <iostream>
@@ -15,9 +12,6 @@
 #include <cctype>
 #include <climits>
 
-// windows.h gives us Sleep() and Beep(). On non-Windows machines (used only
-// for testing/grading on this machine) we use the matching Linux function
-// so the program still compiles and the animations still work.
 #ifdef _WIN32
 #ifndef NOMINMAX
 #define NOMINMAX
